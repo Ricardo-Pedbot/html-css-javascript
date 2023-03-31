@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para registro</title>
+    <h1>formulário para cadastro - fã NFS</h1>
+</head>
+
+<body>
+    <main>
+        <h2>Preencha com seguintes dados:</h2>
+        <form action="/next...">
+            <p>
+                <label for="user">nome</label>
+                <input type="text" id="user" placeholder="primeiro nome" required>
+
+                <label for="userseg">sobrenome</label>
+                <input type="text" id="userseg" placeholder="segundo nome" required>
+            </p>
+
+            <h3>escolha seu jogo favorito da saga need for speed</h3>
+
+            <div>
+                <p>
+                    <label for="nd1">need for speed undergound 2</label>
+                    <input type="radio" name="seção" id="nd1">
+                </p>
+                <p>
+                    <label for="nd2">need for speed most wanted</label>
+                    <input type="radio" name="seção" id="nd2">
+                </p>
+                <p>
+                    <label for="nd3">need for speed carbon</label>
+                    <input type="radio" name="seção" id="nd3">
+                </p>
+            </div>
+
+            <p>
+                <label for="g">email</label>
+                <input type="email" name="emailuser" id="g" required>
+                <label for="ss">senha</label>
+                <input type="password" name="senhauser" id="ss" required minlength="5" maxlength="30">
+            </p>
+            <p>
+                <label for="catg">selecione grupo de idade</label>
+                <select name="categoria" id="catg">
+                    <option disabled selected></option>
+                    <option value="text">-18</option>
+                    <option value="number">18-25</option>
+                    <option value="number">25-30</option>
+                    <option value="number">+30</option>
+                </select>
+            </p>
+            <p>
+                <button type="submit">enviar formulário</button>
+            </p>
+        </form>
+
+    </main>
+</body>
+
+</html>
