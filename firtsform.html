@@ -48,7 +48,9 @@
             <button id="search"> search google</button>
         </p>
     </form>
+
     <hr>
+
     <h2>Conteúdo de busca para o youtube</h2>
     <form action="https://www.youtube.com/results">
         <p>
@@ -57,6 +59,56 @@
             <button id="search"> search youtube</button>
         </p>
     </form>
+
+    <hr>
+
+    <h2>Mais inputs!</h2>
+    <form action="/birds">
+
+        <label for="agree">Aceite tudo</label>
+        <input type="checkbox" name="agree_tos" id="agree">
+        <button>Confirmar</button>
+
+        <p> <!--selecionar uma alternativa em meio as outras, apenas uma definitiva-->
+            <label for="xs">xs</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">s</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">m</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+
+        <hr>
+
+        <p> <!-- tudo que envolva seleção-->
+            <label for="meal">Por favor, selecione uma entrada</label>
+            <select name="meal" id="meal">
+                <option value="fish">fish</option>
+                <option value="vegetarian"><!--selected - pré seleciona uma marcação -->vegetarian</option>
+                <option value="steak">steak</option>
+            </select>
+        </p>
+
+        <hr>
+
+        <p>
+            <!-- interessante adicionar no web skyline-->
+            <!--adiciona uma linha de medida "range"-->
+            <label for="cheese">Contador de queijos</label>
+            <input type="range" id="cheese" min="1" max="400" value="70" name="cheese_level">
+            <button>Confirmar</button>
+        </p>
+
+        <hr>
+
+        <p>
+            <label for="requests">Deixe seu recado!</label>
+            <br>
+            <textarea id="requests" rows="10" cols="40" name="Requests" placeholder="Deixe seu recado"></textarea>
+        </p>
+        <button>Confirmar</button>
+    </form>
+
 </body>
 
 </html>
