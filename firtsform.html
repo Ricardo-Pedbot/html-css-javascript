@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form pedbot</title>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form action="https://www.reddit.com/search">
+        <p>
+            <label for="nome">insira seu nome</label>
+            <input id="nome" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="idade">qual sua idade?</label>
+            <input id="idade" type="date" name="idade">
+        </p>
+        <p>
+            <label for="password">insira sua senha</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <!--formato de botão para redirecionamento-->
+        <button>Confirmar</button>
+        <!-- com o type, permite assim escolher o tipo da função do botão-->
+        <!--<button type="button"></button>
+        metodo diferente de incrementar um redirecionamento, não tão recomendado-->
+        <!--<input type="submit" value="Confirmar"> -->
+    </form>
+    <hr>
+    <h2>Outro conteudo para formulario</h2>
+    <form action="https://www.reddit.com/search">
+        <p>
+            <label for="text">conteúdo de busca para reddit</label>
+            <input id="text" type="text" name="q">
+            <button id="search"> search reddit</button>
+        </p>
+    </form>
+    <hr>
+    <h2>Conteúdo de busca para o google</h2>
+    <form action="https://www.google.com/search">
+        <p>
+            <label for="text">conteúdo de busca para google</label>
+            <input id="text" type="text" name="q">
+            <button id="search"> search google</button>
+        </p>
+    </form>
+    <hr>
+    <h2>Conteúdo de busca para o youtube</h2>
+    <form action="https://www.youtube.com/results">
+        <p>
+            <label for="text">conteúdo de busca para youtube</label>
+            <input id="text" type="text" name="search_query">
+            <button id="search"> search youtube</button>
+        </p>
+    </form>
+</body>
+
+</html>
