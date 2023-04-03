@@ -1,0 +1,21 @@
+.titulos {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Walter Turncoat";
+    color: #023e8a;
+}
+
+.navegação {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+
+body {
+    background-color: #caf0f8;
+    font-size: 20px;
+}
+
+.div {
+    align-items: center;
+
+}
