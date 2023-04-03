@@ -13,47 +13,48 @@
     <main>
         <h2>Preencha com seguintes dados:</h2>
         <form action="/next...">
-            <p>
+            <div>
                 <label for="user">nome</label>
                 <input type="text" id="user" placeholder="primeiro nome" required>
 
                 <label for="userseg">sobrenome</label>
                 <input type="text" id="userseg" placeholder="segundo nome" required>
-            </p>
+            </div>
 
             <h3>escolha seu jogo favorito da saga need for speed</h3>
 
             <div>
                 <p>
-                    <label for="nd1">need for speed undergound 2</label>
                     <input type="radio" name="seção" id="nd1">
+                    <label for="nd1">need for speed undergound 2</label>
                 </p>
                 <p>
-                    <label for="nd2">need for speed most wanted</label>
                     <input type="radio" name="seção" id="nd2">
+                    <label for="nd2">need for speed most wanted</label>
                 </p>
                 <p>
-                    <label for="nd3">need for speed carbon</label>
                     <input type="radio" name="seção" id="nd3">
+                    <label for="nd3">need for speed carbon</label>
                 </p>
             </div>
 
-            <p>
+            <div>
                 <label for="g">email</label>
                 <input type="email" name="emailuser" id="g" required>
                 <label for="ss">senha</label>
                 <input type="password" name="senhauser" id="ss" required minlength="5" maxlength="30">
-            </p>
-            <p>
+            </div>
+
+            <div>
                 <label for="catg">selecione grupo de idade</label>
                 <select name="categoria" id="catg">
                     <option disabled selected></option>
-                    <option value="text">-18</option>
-                    <option value="number">18-25</option>
-                    <option value="number">25-30</option>
-                    <option value="number">+30</option>
+                    <option value="kids">-18</option>
+                    <option value="ya">18-25</option>
+                    <option value="adults">25-50</option>
+                    <option value="senior">+50</option>
                 </select>
-            </p>
+            </div>
             <p>
                 <button type="submit">enviar formulário</button>
             </p>
