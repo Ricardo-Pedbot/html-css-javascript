@@ -108,6 +108,22 @@
         </p>
         <button>Confirmar</button>
     </form>
+    <hr>
+    <form action="/acess">
+        <h2>Validação de dados</h2>
+        <p>
+            <label for="usernamepri">Insira seu nome</label>
+            <input type="text" id="usernamepri" placeholder="digite seu nome" name="q" required>
+            <button>Confirmar</button>
+        </p>
+        <p>
+            <label for="pass">Insira sua senha</label>
+            <input type="password" id="pass" placeholder="digite sua senha" name="q" required minlength="3"
+                maxlength="9"> <!--torna-se obrigatorio se declarar required-->
+            <button>Confirmar</button>
+        </p>
+    </form>
+
 
 </body>
 
