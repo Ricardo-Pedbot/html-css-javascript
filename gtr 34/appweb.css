@@ -4,21 +4,36 @@ body {
     font-size: 20px;
     width: 1900px;
     height: 600px;
-    margin: 0;
+    margin: 40px;
 }
 
 *::selection {
     background-color: #00b4d8;
 }
 
+.estiloskyline div {
+    height: 20px;
+    width: 20px;
+    background-color: #023e8a;
+    margin: 20px 0;
+    transition: margin-left 3s;
+    display: inline-block;
+    transition-timing-function: cubic-bezier(.29, 0.80, 1, 0.68);
+}
+
+.estiloskyline:hover div {
+    margin-left: 500px;
+    ;
+}
+
+
 #titulos {
-    text-align: center;
     font-size: 20px;
     color: #023e8a;
     width: 200px;
-    margin-left: 10px;
-
+    margin: 10px auto;
 }
+
 
 #subtitulo {
     text-align: center;
@@ -32,8 +47,9 @@ body {
     text-align: center;
     font-size: medium;
     font-family: 'Franklin Gothic Medium';
-    margin-left: 80px;
+    margin: 0px;
     width: 300px;
+    margin: 40px auto;
 }
 
 
@@ -46,6 +62,7 @@ body {
 .irform button {
     padding: 8px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .navegação input {
@@ -59,11 +76,13 @@ body {
 .navegação button[type="search"]:hover {
     background-color: #00b4d8;
     color: black;
+    transition: 1s;
 }
 
 .irform button[type="submit"]:hover {
     background-color: #00b4d8;
     color: black;
+    transition: 1s;
 }
 
 
@@ -80,4 +99,11 @@ body {
     width: 700px;
     height: 500px;
     padding-left: 200;
+}
+
+footer {
+    font-size: 20px;
+    margin: 0;
+    border: 10px inset;
+    text-align: center;
 }
