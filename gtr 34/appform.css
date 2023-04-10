@@ -19,13 +19,6 @@ body {
     padding-right: 10px;
 }
 
-/* funções butões */
-.voltarweb button {
-    padding: 15px;
-    border-radius: 10px;
-    margin-right: 900px;
-}
-
 /* esterilização de inputs */
 
 
@@ -44,16 +37,25 @@ body {
     border-style: solid;
 }
 
+/* funções butões */
+.voltarweb button {
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 900px;
+}
+
 /* reações hover */
 
 .voltarweb button[type="submit"]:hover {
     background-color: #00b4d8;
     color: black;
+transition: 1s;
 }
 
 .voltarweb button[type="submit"]:hover {
     background-color: #00b4d8;
     color: black;
+    transition: 1s;
 }
 
 
