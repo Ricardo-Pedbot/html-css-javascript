@@ -1,47 +1,66 @@
+html {
+    width: 1900px;
+}
+
 body {
     background-color: #caf0f8;
     font-size: 20px;
     width: 1900px;
     height: 600px;
-    margin: 0;
+    margin-top: 10%;
 
+}
+
+/* fotos dos carros */
+.bookcar {
+    padding: 1.5em;
+    margin-left: calc(50%/4);
+
+}
+
+/* esterilizando o tamanho */
+.bookcar img {
+    width: 20%;
+    border-radius: 5%;
+    padding: 0.2em;
 }
 
 /* corpo do formulário */
-.bodyform {
-    width: 1000px;
+.voltarweb .bodyform {
+    width: 300px;
     height: 400px;
-    padding: 200px;
-    text-align: center;
 }
-
-.bodyform h1 {
-    padding-right: 10px;
-}
-
-/* esterilização de inputs */
-
 
 /* formulário em tabela para optenção de dados */
 .tabela_especificação td:nth-last-of-type(2n) {
     background-color: #ffffff;
 }
 
-/* .tabela_especificação tr:nth-last-of-type(2n+1) {
-    background-color: #ffffff;
-} */
+.tabela_especificações,
+label {
+    margin-left: 40%;
+    padding: 5px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.tabela_especificação {
+    margin: 0 auto;
+    padding-top: 20px;
+}
 
 .tabela_especificação td {
-    border-width: 8px;
+    border-width: 4px;
     border-color: #90e0ef;
     border-style: solid;
 }
 
 /* funções butões */
 .voltarweb button {
+    margin-left: 15%;
     padding: 10px;
     border-radius: 10px;
-    margin-right: 900px;
 }
 
 /* reações hover */
@@ -49,27 +68,11 @@ body {
 .voltarweb button[type="submit"]:hover {
     background-color: #00b4d8;
     color: black;
-transition: 1s;
+    transition: 1s;
 }
 
 .voltarweb button[type="submit"]:hover {
     background-color: #00b4d8;
     color: black;
     transition: 1s;
-}
-
-
-/* formulário em tabela para optenção de dados */
-.tabela_especificação td:nth-last-of-type(2n) {
-    background-color: #ffffff;
-}
-
-/* .tabela_especificação tr:nth-last-of-type(2n+1) {
-    background-color: #ffffff;
-} */
-
-.tabela_especificação td {
-    border-width: 8px;
-    border-color: #90e0ef;
-    border-style: solid;
 }
