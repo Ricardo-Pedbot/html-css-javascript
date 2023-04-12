@@ -1,4 +1,8 @@
 /* cor de fundo da página */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 *::selection {
     background-color: #00b4d8;
 }
@@ -12,12 +16,6 @@ body {
     height: 600px;
     margin: 40px;
 }
-
-/* edição da imagem */
-.skyline img {
-    margin-left: 20 auto;
-}
-
 /* section para colocar os efeitos azuis */
 .estiloskyline div {
     height: 20px;
@@ -59,6 +57,7 @@ body {
 #porshe,
 #gtr {
     font-size: 40px;
+    width: 400px;
 }
 
 
@@ -67,7 +66,7 @@ body {
 .defskyline {
     text-align: center;
     font-size: 25px;
-
+    height: 100px;
 }
 
 .defporshe,
@@ -105,6 +104,7 @@ body {
     padding: 8px;
     border-radius: 5px;
     font-size: 15px;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 
 .irform button {
@@ -112,6 +112,7 @@ body {
     border-radius: 5px;
     margin-bottom: 20px;
     font-size: 15px;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 
 /* esterilização para inputs */
@@ -127,6 +128,11 @@ body {
     background-color: #00b4d8;
     color: black;
     transition: 1s;
+    border-color: #00b4d8;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #00b4d8;
+    transform: translateY(-0.25em);
+    cursor: pointer;
 }
 
 
@@ -135,6 +141,11 @@ body {
     background-color: #00b4d8;
     color: black;
     transition: 1s;
+    border-color: #00b4d8;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #00b4d8;
+    transform: translateY(-0.25em);
+    cursor: pointer;
 }
 
 
@@ -150,6 +161,7 @@ body {
     width: 700px;
     height: 500px;
     padding-left: 200;
+    align-items: left;
 }
 
 footer {
